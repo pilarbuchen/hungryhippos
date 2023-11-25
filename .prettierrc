@@ -8,5 +8,6 @@
         "tabWidth": 4
       }
     }
-  ]
+  ],
+  "editor": "// Please manually format multiline strings within arrays/objects for better readability"
 }

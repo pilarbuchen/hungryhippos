@@ -1,0 +1,203 @@
+{
+  "recipes": [
+    {
+      "name": "Vegetable Stir-Fry",
+      "ingredients": {
+        "leftover_vegetables": "2 cups mixed (bell peppers, broccoli, carrots, etc.)",
+        "soy_sauce": "2 tablespoons",
+        "garlic": "2 cloves, minced",
+        "ginger": "1 teaspoon grated",
+        "cooked_rice_or_noodles": "2 cups",
+        "vegetable_oil": "2 tablespoons"
+      },
+      "instructions": [
+        "Heat vegetable oil in a skillet over medium-high heat.",
+        "Sauté minced garlic and grated ginger for 30 seconds.",
+        "Add leftover vegetables, stir-fry for 3-4 minutes until softened.",
+        "Pour in soy sauce, cook for another 2-3 minutes.",
+        "Add cooked rice or noodles, stir until heated through.",
+        "Serve hot."
+      ],
+      "cooking_time": "15-20 minutes"
+    },
+    {
+      "name": "Frittata",
+      "ingredients": {
+        "eggs": "6 large",
+        "assorted_leftovers": "1 cup mixed vegetables, meats, and cheese",
+        "salt_and_pepper": "to taste",
+        "olive_oil": "1 tablespoon"
+      },
+      "instructions": [
+        "Preheat oven to 350°F (175°C).",
+        "Whisk eggs, season with salt and pepper.",
+        "Heat olive oil in an oven-safe skillet over medium heat.",
+        "Sauté assorted leftovers briefly in the skillet.",
+        "Pour beaten eggs over the mixture in the skillet.",
+        "Cook on stovetop for 3-4 minutes.",
+        "Bake in oven for 12-15 minutes until set.",
+        "Let it cool before slicing."
+      ],
+      "cooking_time": "20-25 minutes"
+    },
+    {
+      "name": "Pasta Primavera",
+      "ingredients": {
+        "pasta": "8 ounces",
+        "assorted_leftover_vegetables": "2 cups (zucchini, cherry tomatoes, spinach)",
+        "olive_oil": "2 tablespoons",
+        "garlic": "2 cloves, minced",
+        "grated_parmesan_cheese": "to taste",
+        "salt_and_pepper": "to taste"
+      },
+      "instructions": [
+        "Cook pasta, drain, and set aside.",
+        "Heat olive oil in a pan over medium heat.",
+        "Sauté minced garlic for 1 minute.",
+        "Add assorted leftover vegetables, cook until softened.",
+        "Mix in cooked pasta, season with salt and pepper.",
+        "Sprinkle grated Parmesan cheese before serving."
+      ],
+      "cooking_time": "15-20 minutes"
+    },
+    {
+      "name": "Vegetable Soup",
+      "ingredients": {
+        "onion": "1, chopped",
+        "carrots": "2, sliced",
+        "celery_stalks": "2, chopped",
+        "assorted_leftover_vegetables": "Various (broccoli, cauliflower, etc.)",
+        "vegetable_or_chicken_broth": "6 cups",
+        "salt_and_pepper": "to taste",
+        "herbs": "Thyme, bay leaves",
+        "pasta_or_rice": "1/2 cup (optional)"
+      },
+      "instructions": [
+        "Heat oil in a pot, add onions, carrots, and celery. Cook until softened.",
+        "Add assorted leftover vegetables, broth, herbs, and bring to a boil.",
+        "Reduce heat, simmer for 20-25 minutes.",
+        "If adding pasta or rice, include it in the last 10 minutes of cooking.",
+        "Season with salt and pepper, remove bay leaves before serving."
+      ],
+      "cooking_time": "30-40 minutes"
+    },
+    {
+      "name": "Leftover Fried Rice",
+      "ingredients": {
+        "cooked_rice": "3 cups",
+        "leftover_meats_or_tofu": "1 cup diced",
+        "frozen_peas_and_carrots": "1/2 cup",
+        "soy_sauce": "2-3 tablespoons",
+        "sesame_oil": "1 tablespoon",
+        "garlic": "2 cloves, minced"
+      },
+      "instructions": [
+        "Heat oil in a large skillet or wok over medium-high heat.",
+        "Add minced garlic, stir for 30 seconds.",
+        "Toss in leftover meats/tofu, cook for a few minutes.",
+        "Add frozen peas and carrots, cook until heated through.",
+        "Stir in cooked rice, soy sauce, and sesame oil. Mix well.",
+        "Cook for a few more minutes until everything is heated evenly."
+      ],
+      "cooking_time": "15-20 minutes"
+    },
+    {
+      "name": "Taco Salad",
+      "ingredients": {
+        "cooked_ground_beef_or_shredded_chicken": "1 cup",
+        "lettuce": "4 cups, shredded",
+        "tomatoes": "1 cup, diced",
+        "onions": "1/2 cup, diced",
+        "taco_seasoning": "to taste",
+        "sour_cream": "1/2 cup",
+        "tortilla_chips": "as needed"
+      },
+      "instructions": [
+        "Mix cooked meat with taco seasoning in a bowl.",
+        "Assemble salad: layer lettuce, tomatoes, onions, and seasoned meat.",
+        "Top with sour cream and crushed tortilla chips."
+      ],
+      "cooking_time": "15 minutes (if meat is already cooked)"
+    },
+    {
+      "name": "Pantry Pasta",
+      "ingredients": {
+        "pasta": "8 ounces",
+        "canned_tomatoes": "1 can (14 oz), diced",
+        "garlic": "2 cloves, minced",
+        "olive_oil": "2 tablespoons",
+        "herbs": "Basil, oregano",
+        "red_pepper_flakes": "to taste",
+        "salt_and_pepper": "to taste"
+      },
+      "instructions": [
+        "Cook pasta according to package instructions.",
+        "Heat olive oil in a pan, add minced garlic, cook for a minute.",
+        "Pour in the canned tomatoes, simmer for 10-15 minutes.",
+        "Add cooked pasta to the sauce, mix well.",
+        "Season with herbs, red pepper flakes, salt, and pepper."
+      ],
+      "cooking_time": "20-25 minutes"
+    },
+    {
+      "name": "Quinoa Salad",
+      "ingredients": {
+        "cooked_quinoa": "2 cups",
+        "cucumber": "1, diced",
+        "bell_pepper": "1, diced",
+        "red_onion": "1/2, finely chopped",
+        "lemon_juice": "1/4 cup",
+        "olive_oil": "3 tablespoons",
+        "fresh_herbs": "Parsley, mint, chopped",
+        "salt_and_pepper": "to taste",
+        "feta_cheese": "optional, crumbled"
+      },
+      "instructions": [
+        "Combine cooked quinoa, diced vegetables, and herbs in a large bowl.",
+        "Whisk together lemon juice, olive oil, salt, and pepper to make dressing.",
+        "Pour dressing over the salad and toss to combine.",
+        "Top with crumbled feta cheese if desired."
+      ],
+      "cooking_time": "15-20 minutes"
+    },
+    {
+      "name": "Leftover Roast Sandwich",
+      "ingredients": {
+        "leftover_roasted_meat": "Enough for sandwiches (beef, turkey, chicken)",
+        "bread_or_rolls": "As needed",
+        "mustard": "to taste",
+        "mayonnaise": "to taste",
+        "pickles": "As needed",
+        "lettuce": "As needed",
+        "sliced_tomatoes": "As needed"
+      },
+      "instructions": [
+        "Slice or shred the leftover roasted meat.",
+        "Toast the bread or rolls if desired.",
+        "Spread mustard and mayonnaise on the bread.",
+        "Layer the meat, pickles, lettuce, and tomatoes to make the sandwich."
+      ],
+      "cooking_time": "10 minutes"
+    },
+    {
+      "name": "Pantry Veggie Burgers",
+      "ingredients": {
+        "canned_beans_or_lentils": "1 can (15 oz), drained",
+        "breadcrumbs": "1/2 cup",
+        "cumin": "1 teaspoon",
+        "paprika": "1 teaspoon",
+        "salt_and_pepper": "to taste",
+        "flour_or_egg": "as a binder",
+        "burger_buns": "As needed"
+      },
+      "instructions": [
+        "Mash the beans/lentils in a bowl.",
+        "Add breadcrumbs, cumin, paprika, salt, and pepper. Mix well.",
+        "Form the mixture into patties, using flour or egg as a binder if needed.",
+        "Heat oil in a pan over medium heat and cook patties for 3-4 minutes on each side until golden brown.",
+        "Serve on burger buns with your favorite toppings."
+      ],
+      "cooking_time": "15-20 minutes"
+    }
+  ]
+}

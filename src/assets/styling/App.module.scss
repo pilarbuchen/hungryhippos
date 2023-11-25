@@ -1,0 +1,62 @@
+.biggestappcontainer {
+    margin: 0px;
+    padding: 100px 50px 50px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 20px;
+}
+
+.bodycontainer {
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: row;
+    display: flex;
+    justify-content: start;
+}
+
+.footercontaner {
+    padding: 30px;
+    right: 20px;
+    left: 75%;
+    display: grid;
+    margin-top: 0px;
+    justify-content: end;
+}
+
+.inputcontainer {
+    gap: 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-content: start;
+}
+
+.maintitlecontainer {
+    position: relative;
+    display: inline-block;
+    margin-right: 60%;
+    margin-bottom: 15px;
+}
+
+.inputcontainer {}
+
+.recipecontainer {
+    grid-template-columns: none;
+    margin-left: 5px;
+    padding: 0px;
+    margin-right: 50px;
+}
+
+.nextbackbuttoncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.exitcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
