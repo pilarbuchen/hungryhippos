@@ -3,6 +3,6 @@ import  RecipeContainer  from '../../../components/recipe-container/recipe-conta
 
 export default createBoard({
     name: 'RecipeContainer',
-    Board: () => <RecipeContainer />,
+    Board: () => <RecipeContainer title={''} ingredients={[]} description={[]} />,
     isSnippet: true,
 });
