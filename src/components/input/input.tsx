@@ -1,5 +1,5 @@
 import { Input } from 'semantic-ui-react'
-import Input_module from '../../assets/styling/input.module.scss';
+import Input_module from './input.module.scss';
 import { InputValue } from '../../types/types';
 import { FC } from 'react';
 

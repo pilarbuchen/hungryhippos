@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Container, Header, List } from 'semantic-ui-react';
-import RecipeContainer_module from '../../assets/styling/recipe-container.module.scss';
+import RecipeContainer_module from './recipe-container.module.scss';
 import { RecipeInfo } from '../../types/types';
 
 const RecipeContainer: FC<RecipeInfo> = ({
