@@ -1,4 +1,4 @@
-# Hungry Hippos Recipe Search App Readme
+# Hungry Hippos Recipe Search App
 
 ## Overview
 
