@@ -47,9 +47,10 @@ function App() {
             setCopied(false);
         }
     }, 2000);
+    
     return (
         <div className={App_module.container}>
-            <div className={App_module.biggestappcontainer}>
+            <div className={App_module.leftsidecontainer}>
                 <div className={App_module.bodycontainer}>
                     <Label />
                     <InputComp
@@ -59,7 +60,7 @@ function App() {
                     />
                 </div>
                 {filteredRecipes.length !== 0 ? (
-                    <div className={App_module.recipecont}>
+                    <div className={App_module.rigthsidecontainer}>
                         {isVisible ? (
                             <div className={App_module.recipecontainer}>
                                 <div className={App_module.exitcontainer}>
@@ -71,13 +72,12 @@ function App() {
                                         onClick={handleExitRecipeContainer}
                                     />
                                 </div>
-
                                 <RecipeContainer
                                     title={displayItems[0].name} // Use displayItems instead of filteredRecipes
                                     ingredients={displayItems[0].ingredients}
                                     description={displayItems[0].instructions}
                                 />
-                                <div className={App_module.nextbackbuttoncontainer}>
+                                <div className={App_module.paginationcontainer}>
                                     <RecipePagination
                                         activePage={currentPage}
                                         onPageChange={handlePageChange}
@@ -97,8 +97,8 @@ function App() {
                     </div>
                 )}
             </div>
-            <div className={App_module.footer}>
-                <div className={App_module.footercontaner}>
+            <div>
+                <div className={App_module.footercontainer}>
                     <SocialIcons />
                 </div>
             </div>

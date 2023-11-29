@@ -1,4 +1,4 @@
-.biggestappcontainer {
+.leftsidecontainer {
     margin: 0px;
     padding: 30px 15px 0px;
     display: flex;
@@ -21,7 +21,7 @@
     align-content: center;
 }
 
-.footercontaner {
+.footercontainer {
     padding: 0px;
     display: flex;
     top: 75%;
@@ -60,7 +60,7 @@
     width: 400px;
 }
 
-.nextbackbuttoncontainer {
+.paginationcontainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -75,10 +75,6 @@
     margin-bottom: 20px;
 }
 
-.parentrecipecontaner {
-    display: grid;
-}
-
 .warning {
     right: 22%;
     bottom: 49%;
@@ -91,7 +87,7 @@
 }
 
 .container {
-    background: repeat padding-box border-box 0% 0% / auto auto scroll linear-gradient(180deg, rgba(255, 255, 255, 0) 18%, #ffffff 100%), no-repeat padding-box border-box 43% 68% / cover scroll url(/Users/pilarb/Desktop/hungryhippos/src/assets/images/IMG_2722.JPG);
+    background: repeat padding-box border-box 0% 0% / auto auto scroll linear-gradient(180deg, rgba(255, 255, 255, 0) 18%, #ffffff 100%), no-repeat padding-box border-box 43% 68% / cover scroll url(/dist/assets/IMG_2722-91ee238e.JPG);
     opacity: 1;
     margin: 0px;
     padding: 30px;
@@ -100,7 +96,7 @@
 
 }
 
-.recipecont {
+.rigthsidecontainer {
     opacity: 0.8;
     margin: 60px 0px 0px;
     height: 550px;
@@ -111,17 +107,4 @@
     height: 500px;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    justify-items: end;
-    justify-content: end;
-}
 
-.footer {
-    position: sticky;
-    margin: 0px;
-    padding: 8px 8px 0px;
-}
