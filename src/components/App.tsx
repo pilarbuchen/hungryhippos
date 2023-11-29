@@ -47,11 +47,11 @@ function App() {
             setCopied(false);
         }
     }, 2000);
-    
+
     return (
         <div className={App_module.container}>
-            <div className={App_module.leftsidecontainer}>
-                <div className={App_module.bodycontainer}>
+            <div className={App_module.bodycontainer}>
+                <div className={App_module.leftsidecontainer}>
                     <Label />
                     <InputComp
                         onChange={(e) => {

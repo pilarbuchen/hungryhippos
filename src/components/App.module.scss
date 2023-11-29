@@ -1,4 +1,4 @@
-.leftsidecontainer {
+.bodycontainer {
     margin: 0px;
     padding: 30px 15px 0px;
     display: flex;
@@ -9,7 +9,7 @@
     background-color: rgba(255, 255, 255, 0);
 }
 
-.bodycontainer {
+.leftsidecontainer {
     grid-auto-flow: row;
     display: flex;
     bottom: 50%;
