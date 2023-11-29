@@ -1,108 +1,72 @@
 .bodycontainer {
-    margin: 0px;
-    padding: 30px 15px 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: start;
-    background-color: rgba(255, 255, 255, 0);
+  padding: 30px 15px 0px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .leftsidecontainer {
-    grid-auto-flow: row;
-    display: flex;
-    bottom: 50%;
-    margin: 3% 0px 0em;
-    padding: 0px 0px 0em;
-    flex-direction: column;
-    align-items: start;
-    flex-wrap: wrap;
-    align-content: center;
+  bottom: 50%;
+  margin: 3%;
 }
 
 .footercontainer {
-    padding: 0px;
-    display: flex;
-    top: 75%;
-    left: 5%;
-    margin: 15% 5% 0px 0%;
-    flex-direction: row;
-    justify-content: end;
-    align-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
+  display: flex;
 
-.inputcontainer {
-    gap: 0px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    align-content: start;
-}
+  margin: 15% 5% 0px 0%;
 
-.maintitlecontainer {
-    position: relative;
-    display: inline-block;
-    margin-right: 60%;
-    margin-bottom: 15px;
+  justify-content: end;
 }
 
 .recipecontainer {
-    padding: 10px;
-    left: 45%;
-    margin: 50px;
-    display: grid;
-    height: 400px;
-    width: 400px;
+  padding: 10px;
+  left: 45%;
+  margin: 50px;
+  display: grid;
+  height: 400px;
+  width: 400px;
 }
 
 .paginationcontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .exitcontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 2px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2px;
+  margin-bottom: 20px;
 }
 
 .warning {
-    right: 22%;
-    bottom: 49%;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    height: 610px;
+  right: 22%;
+  bottom: 49%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 610px;
 }
 
 .container {
-    background: repeat padding-box border-box 0% 0% / auto auto scroll linear-gradient(180deg, rgba(255, 255, 255, 0) 18%, #ffffff 100%), no-repeat padding-box border-box 43% 68% / cover scroll url('../assets/images/IMG_2722.JPG');
-    opacity: 1;
-    margin: 0px;
-    padding: 30px;
-    overflow: auto;
-    width: 100%;
-
+  background: repeat padding-box border-box 0% 0% / auto auto scroll
+      linear-gradient(180deg, rgba(255, 255, 255, 0) 18%, #ffffff 100%),
+    no-repeat padding-box border-box 43% 68% / cover scroll url('../assets/images/IMG_2722.JPG');
+  opacity: 1;
+  padding: 30px;
+  overflow: auto;
+  width: 100%;
 }
 
 .rigthsidecontainer {
-    opacity: 0.8;
-    margin: 60px 0px 0px;
-    height: 550px;
+  opacity: 0.8;
+  margin: 60px 0px 0px;
+  height: 550px;
 }
 
 .dummydiv {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
