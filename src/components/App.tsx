@@ -28,7 +28,6 @@ function App() {
 
     const onCopy = () => {
         setCopied(true);
-
     };
 
     const handleExitRecipeContainer = (event: React.MouseEvent<HTMLButtonElement>, data: any) => {
@@ -44,9 +43,9 @@ function App() {
     const recipeString = JSON.stringify(displayItems).replace(/[\[\]{}"]/g, '');
 
     setTimeout(() => {
-    if (copied) {
-        setCopied(false)
-       }
+        if (copied) {
+            setCopied(false);
+        }
     }, 2000);
     return (
         <div className={App_module.container}>
@@ -65,7 +64,7 @@ function App() {
                             <div className={App_module.recipecontainer}>
                                 <div className={App_module.exitcontainer}>
                                     <CopyToClipboard onCopy={onCopy} text={recipeString}>
-                                        <IconButton name={copied ? 'check': 'copy'}/>
+                                        <IconButton name={copied ? 'check' : 'copy'} />
                                     </CopyToClipboard>
                                     <IconButton
                                         name={'close'}
@@ -88,7 +87,9 @@ function App() {
                                     />
                                 </div>
                             </div>
-                        ) : (<div className={App_module.dummydiv} />)}
+                        ) : (
+                            <div className={App_module.dummydiv}></div>
+                        )}
                     </div>
                 ) : (
                     <div className={App_module.warning}>
