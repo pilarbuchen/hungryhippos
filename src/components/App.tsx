@@ -14,12 +14,13 @@ function App() {
     const [isVisible, setIsVisible] = useState(true);
     const [copied, setCopied] = useState(false);
     const [value, setValue] = useState('');
+    const [currentPage, setCurrentPage] = useState(2);
+
     const filteredRecipes = recipes.filter((item) =>
         item.ingredients.some((item) => item.includes(value))
     );
 
     const itemsPerPage = 1;
-    const [currentPage, setCurrentPage] = useState(2);
 
     const handlePageChange = (event: React.MouseEvent<HTMLAnchorElement>, data: any) => {
         event.preventDefault();
@@ -40,7 +41,7 @@ function App() {
         currentPage * itemsPerPage
     );
 
-    const recipeString = JSON.stringify(displayItems).replace(/[\[\]{}"]/g, '');
+    const recipeStringToCopy = JSON.stringify(displayItems).replace(/[\[\]{}"]/g, '');
 
     setTimeout(() => {
         if (copied) {
@@ -64,7 +65,7 @@ function App() {
                         {isVisible ? (
                             <div className={App_module.recipecontainer}>
                                 <div className={App_module.exitcontainer}>
-                                    <CopyToClipboard onCopy={onCopy} text={recipeString}>
+                                    <CopyToClipboard onCopy={onCopy} text={recipeStringToCopy}>
                                         <IconButton name={copied ? 'check' : 'copy'} />
                                     </CopyToClipboard>
                                     <IconButton
@@ -73,7 +74,7 @@ function App() {
                                     />
                                 </div>
                                 <RecipeContainer
-                                    title={displayItems[0].name} // Use displayItems instead of filteredRecipes
+                                    title={displayItems[0].name} 
                                     ingredients={displayItems[0].ingredients}
                                     description={displayItems[0].instructions}
                                 />

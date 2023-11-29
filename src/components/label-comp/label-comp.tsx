@@ -1,4 +1,3 @@
-import React from 'react'
 import { Header } from 'semantic-ui-react'
 
 const Label = () => (
@@ -7,4 +6,4 @@ const Label = () => (
   </div>
 )
 
-export default Label
+export default Label;

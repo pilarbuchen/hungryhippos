@@ -1,5 +1,4 @@
-// RecipePagination.tsx
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Pagination } from 'semantic-ui-react';
 import { RecipePagination } from '../../types/types';
 

@@ -1,5 +1,4 @@
-import React from 'react'
-import { Button, Header, Icon, Segment } from 'semantic-ui-react'
+import { Header, Icon } from 'semantic-ui-react'
 
 const Warning = () => (
  
@@ -10,4 +9,4 @@ const Warning = () => (
 
 )
 
-export default Warning
+export default Warning;

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button } from 'semantic-ui-react'
 
 const SocialIcons = () => (
@@ -10,4 +9,4 @@ const SocialIcons = () => (
     </div>
 );
 
-export default SocialIcons
+export default SocialIcons;

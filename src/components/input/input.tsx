@@ -7,4 +7,4 @@ const InputComp: FC<InputValue> = ({ onChange }): JSX.Element => (
     <Input fluid icon="search" placeholder="Search..." className={Input_module.input} onChange={onChange} />
 );
 
-export default InputComp
+export default InputComp;

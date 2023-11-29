@@ -23,5 +23,3 @@ export type RecipeInfo = {
     ingredients: string[] | string;
     description: string[];
 };
-
-

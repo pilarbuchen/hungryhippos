@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Container, Header, List } from 'semantic-ui-react';
 import RecipeContainer_module from './recipe-container.module.scss';
 import { RecipeInfo } from '../../types/types';
