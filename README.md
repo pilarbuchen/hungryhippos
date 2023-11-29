@@ -1,33 +1,31 @@
-<div align="center">  
-    <img height="50" src="./src/assets/codux.svg">  
-    <h1><img height="30" src="./src/assets/vite.svg"> Vite template for Codux</h1>
-</div>
+# Hungry Hippos Recipe Search App Readme
 
-### A Visual IDE for React Projects
+## Overview
 
-Codux is an all-in-one visual development environment. Whether you’re starting a new app, creating components, or editing an existing project, every visual change you make reflects instantly in the code and vice versa. To learn more about Codux, visit our website - [https://www.codux.com/](https://www.codux.com/)
+Welcome to Hungry Hippos, your go-to Recipe Search App! This simple and user-friendly tool, built with Vite, TypeScript, and npm, allows you to discover delicious recipes by entering keywords.
 
-This project was bootstrapped with [`Vite`](https://vitejs.dev).
+## Getting Started
 
-It includes a single React component to start your project with, a sample [`codux.config.json`](codux.config.json) with preconfigured keys, a `package.json` file to describe the project's packages and dependencies, and a folder and component structure to put everything neatly in its place.
+1. **Enter Keywords:** Type in keywords that describe the type of recipe you're looking for.
 
-- Edit, render and compose apps that make use of **`React`**-based components.
-- Create components with **`TypeScript`**, **`SCSS`** and **`CSS Modules`** support.
-- Visually edit in real-time and in an isolated environment.
+2. **Error Handling:** If you enter a wrong keyword or the app doesn't find any matching recipes, the app will guide you to enter another word.
 
-### Available Scripts
+3. **Copy to Clipboard:** Use the "Copy to Clipboard" feature to save the recipe details for future reference.
 
-In the project directory, you can run:
+## Features
 
-### `npm run build`
+- **Keyword Search:** Easily find recipes by typing keywords.
+- **Error Handling:** Receive guidance to enter alternative keywords.
+- **Copy to Clipboard:** Quickly save your favorite recipes.
 
-Build the application in production mode into a folder named `dist`. This folder can be served using any HTTP server.
+## Installation
 
-### `npm run dev`
+```bash
+# Clone the repository
+git clone https://github.com/your-username/hungry-hippos.git
 
-Start dev server, aliases: `vite dev`, `vite serve`.\
-Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) to view it in the browser.
+# Navigate to the project directory
+cd hungry-hippos
 
-### `npm run preview`
-
-Boots up a local static web server that serves the files from dist at [`http://localhost:4173`](http://localhost:4173) . It's an easy way to check if the production build looks OK in your local environment.
+# Install dependencies
+npm install
