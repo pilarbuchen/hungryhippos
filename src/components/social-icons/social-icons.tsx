@@ -2,12 +2,12 @@ import React from 'react'
 import { Button } from 'semantic-ui-react'
 
 const SocialIcons = () => (
-  <div>
-    <Button circular color='facebook' icon='facebook' />
-    <Button circular color='twitter' icon='twitter' />
-    <Button circular color='linkedin' icon='linkedin' />
-    <Button circular color='google plus' icon='google plus' />
-  </div>
-)
+    <div>
+        <Button circular basic color="black" icon="google plus" />
+        <Button circular basic color="black" icon="facebook" />
+        <Button circular basic color="black" icon="twitter" />
+        <Button circular basic color="black" icon="linkedin" />
+    </div>
+);
 
 export default SocialIcons

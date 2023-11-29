@@ -1,28 +1,37 @@
 .biggestappcontainer {
     margin: 0px;
-    padding: 100px 50px 50px;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    gap: 20px;
+    padding: 30px 15px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: start;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .bodycontainer {
-    grid-template-columns: 50% 50%;
     grid-auto-flow: row;
-    flex-direction: column;
-    justify-content: center;
     display: flex;
-    position: fixed;
     bottom: 50%;
+    margin: 3% 0px 0em;
+    padding: 0px 0px 0em;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .footercontaner {
-    padding: 30px;
-    display: grid;
-    margin-top: 0px;
-    position: fixed;
+    padding: 0px;
+    display: flex;
     top: 75%;
     left: 5%;
+    margin: 15% 5% 0px 0%;
+    flex-direction: row;
+    justify-content: end;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .inputcontainer {
@@ -43,12 +52,12 @@
 }
 
 .recipecontainer {
-    grid-template-columns: none;
-    margin-left: 5px;
-    padding: 0px;
-    margin-right: 50px;
-    position: fixed;
+    padding: 10px;
     left: 45%;
+    margin: 50px;
+    display: grid;
+    height: 400px;
+    width: 400px;
 }
 
 .nextbackbuttoncontainer {
@@ -68,4 +77,51 @@
 
 .parentrecipecontaner {
     display: grid;
+}
+
+.warning {
+    right: 22%;
+    bottom: 49%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 610px;
+}
+
+.container {
+    background: repeat padding-box border-box 0% 0% / auto auto scroll linear-gradient(180deg, rgba(255, 255, 255, 0) 18%, #ffffff 100%), no-repeat padding-box border-box 43% 68% / cover scroll url(/Users/pilarb/Desktop/hungryhippos/src/assets/images/IMG_2722.JPG);
+    opacity: 1;
+    margin: 0px;
+    padding: 30px;
+    overflow: auto;
+    width: 100%;
+
+}
+
+.recipecont {
+    opacity: 0.8;
+    margin: 60px 0px 0px;
+    height: 550px;
+}
+
+.dummydiv {
+    width: 500px;
+    height: 500px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-items: end;
+    justify-content: end;
+}
+
+.footer {
+    position: sticky;
+    margin: 0px;
+    padding: 8px 8px 0px;
 }
