@@ -14,7 +14,7 @@ function App() {
     const [isVisible, setIsVisible] = useState(true);
     const [copied, setCopied] = useState(false);
     const [value, setValue] = useState('');
-    const [currentPage, setCurrentPage] = useState(2);
+    const [currentPage, setCurrentPage] = useState(1);
 
     const filteredRecipes = recipes.filter((item) =>
         item.ingredients.some((item) => item.includes(value))
